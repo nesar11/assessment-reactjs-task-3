@@ -1,14 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import Contact from './components/Contact';
+import { useState } from 'react';
 
-function App() {
+
+const  App =() => {
+
   return (
-    <div className="App">
-      <NavBar />
+    <div className="app" >
+
       <Contact />
-      
     </div>
   );
 }
